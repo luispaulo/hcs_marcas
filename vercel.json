@@ -1,8 +1,11 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": ".vercel/output",
-  "framework": null,
-  "env": {
-    "VERCEL": "1"
-  }
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }
