@@ -1,5 +1,5 @@
 {
-  "buildCommand": "bun run build",
-  "outputDirectory": ".vercel/output",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
   "framework": null
 }
